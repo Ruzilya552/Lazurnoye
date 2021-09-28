@@ -1,0 +1,209 @@
+@font-face
+{
+    font-family: icons;src: url(../fonts/icons.eot);src: url(../fonts/icons.eot?#iefix) format('eot'),url(../fonts/icons.woff2) format('woff2'),url(../fonts/icons.woff) format('woff'),url(../fonts/icons.ttf) format('truetype'),url(../fonts/icons.svg#icons) format('svg');font-display: swap;
+}.icon-acc-arrow:before,
+.icon-arrow-right:before,
+.icon-arrow-right_2:before,
+.icon-base-pseudo,
+.icon-check:before,
+.icon-chevron:before,
+.icon-close:before,
+.icon-contacts:before,
+.icon-eye:before,
+.icon-fb:before,
+.icon-file:before,
+.icon-in:before,
+.icon-message:before,
+.icon-pdf:before,
+.icon-pin:before,
+.icon-sort:before,
+.icon-time:before,
+.icon-triangle:before,
+.icon-vk:before,
+.icon-yt:before
+{
+    font-family: icons;font-weight: 400;font-style: normal;font-variant: normal;text-decoration: none;text-transform: none;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+}.icon-acc-arrow:before
+{
+    content: '\E001';
+}.icon-arrow-right:before
+{
+    content: '\E002';
+}.icon-arrow-right_2:before
+{
+    content: '\E003';
+}.icon-check:before
+{
+    content: '\E004';
+}.icon-chevron:before
+{
+    content: '\E005';
+}.icon-close:before
+{
+    content: '\E006';
+}.icon-contacts:before
+{
+    content: '\E007';
+}.icon-eye:before
+{
+    content: '\E008';
+}.icon-fb:before
+{
+    content: '\E009';
+}.icon-file:before
+{
+    content: '\E00A';
+}.icon-in:before
+{
+    content: '\E00B';
+}.icon-message:before
+{
+    content: '\E00C';
+}.icon-pdf:before
+{
+    content: '\E00D';
+}.icon-pin:before
+{
+    content: '\E00E';
+}.icon-sort:before
+{
+    content: '\E00F';
+}.icon-time:before
+{
+    content: '\E010';
+}.icon-triangle:before
+{
+    content: '\E011';
+}.icon-vk:before
+{
+    content: '\E012';
+}.icon-yt:before
+{
+    content: '\E013';
+}@font-face
+{
+    font-family: GillSansProCyrillic-Bold;font-weight: 400;font-style: normal;src: url(../fonts/GillSansProCyrillic-Bold.woff2) format('woff2'),url(../fonts/GillSansProCyrillic-Bold.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: GillSansProCyrillic-Medium;font-weight: 400;font-style: normal;src: url(../fonts/GillSansProCyrillic-Medium.woff2) format('woff2'),url(../fonts/GillSansProCyrillic-Medium.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: Manrope-ExtraBold;font-weight: 400;font-style: normal;src: url(../fonts/Manrope-ExtraBold.woff2) format('woff2'),url(../fonts/Manrope-ExtraBold.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: Manrope-Bold;font-weight: 400;font-style: normal;src: url(../fonts/Manrope-Bold.woff2) format('woff2'),url(../fonts/Manrope-Bold.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: Manrope-SemiBold;font-weight: 400;font-style: normal;src: url(../fonts/Manrope-SemiBold.woff2) format('woff2'),url(../fonts/Manrope-SemiBold.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: Manrope-Medium;font-weight: 400;font-style: normal;src: url(../fonts/Manrope-Medium.woff2) format('woff2'),url(../fonts/Manrope-Medium.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: Manrope-Regular;font-weight: 400;font-style: normal;src: url(../fonts/Manrope-Regular.woff2) format('woff2'),url(../fonts/Manrope-Regular.woff) format('woff');font-display: swap;
+}.b-accordion-main-wrapper
+{
+    margin-bottom: 159px;
+}.b-additional-cards--club-card .b-additional-cards__text
+{
+    padding: 0 50px;
+}.b-breadcrumbs--single-new
+{
+    margin-left: -135px;
+}.b-burger__blue-part
+{
+    padding-right: calc((100vw - 1128px)/ 2);
+}.windows .b-burger__blue-part
+{
+    padding-right: calc((100vw - 1128px - 17px)/ 2 + 17px);
+}.b-burger__white-part
+{
+    width: calc((100vw - 1024px) * (499.5 - 372)/ (1279 - 1024) + 372px);padding-left: calc((100vw - 1128px)/ 2);
+}.windows .b-burger__white-part
+{
+    padding-left: calc((100vw - 1128px - 17px)/ 2);
+}.active.b-burger .b-burger__trigger
+{
+    right: calc((100vw - 1128px)/ 2);
+}.windows .active.b-burger .b-burger__trigger
+{
+    right: calc((100vw - 1128px - 17px)/ 2 + 17px);
+}.b-contacts__wrapper
+{
+    padding: 0 100px 0 0;
+}.b-contacts--page .b-contacts__wrapper
+{
+    padding: 0;
+}.b-container
+{
+    width: 1128px;
+}.b-container--wide
+{
+    width: 100%;
+}.b-container--very-small
+{
+    width: 872px;
+}.b-first-display__wrapper
+{
+    margin: 0 calc((1128px - 100vw)/ 2) 59px;
+}.b-footer__copyright
+{
+    margin-right: 187px;
+}.b-footer__contacts
+{
+    padding-left: 116px;
+}.b-footer__services
+{
+    padding-left: 45px;
+}.b-footer__production
+{
+    width: 18%;
+}.b-footer__links
+{
+    width: 82%;
+}.b-gallery__item-text
+{
+    font-size: 16px;line-height: 24px;
+}.b-gallery--sports .b-gallery__item--pattern
+{background-position: right calc(100% - 11px);
+    background-size: calc((100vw - 1280px) * (735 - 678)/ (1440 - 1280) + 678px) auto;
+}.b-gallery--corporative-clients .b-gallery__item--pattern
+{background-position: right calc(100% - 210px);
+    background-size: calc((100vw - 1280px) * (735 - 678)/ (1440 - 1280) + 678px) auto;
+}.b-locations-slider__wrapper
+{
+    padding: 50px calc((100vw - 1128px)/ 2) 50px 64px;
+}.b-logo--burger
+{
+    left: calc((100vw - 1128px)/ 2);
+}.windows .b-logo--burger
+{
+    left: calc((100vw - 1128px - 17px)/ 2);
+}.b-logo--footer
+{
+    margin-right: 186px;
+}.b-services-cards--main
+{
+    width: 1128px;
+}.b-steps__card--yellow
+{
+    padding: 0 42px 48px;
+}.b-steps__card--dark-blue
+{
+    padding: 0 100px;
+}.b-steps__card--red
+{
+    padding-bottom: 32px;
+}.b-steps__card--blue
+{
+    padding: 0 118px 20px;
+}.b-tab--team .b-tab__head
+{
+    max-width: calc(100% + 100vw - 1128px);margin: 0 calc((1128px - 100vw)/ 2) 56px;
+}.b-title--contacts
+{
+    margin-left: 665px;
+}.b-trainer-cards--team
+{
+    margin: 0 calc((1128px - 100vw)/ 2);
+}

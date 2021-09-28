@@ -1,0 +1,727 @@
+@font-face
+{
+    font-family: icons;src: url(../fonts/icons.eot);src: url(../fonts/icons.eot?#iefix) format('eot'),url(../fonts/icons.woff2) format('woff2'),url(../fonts/icons.woff) format('woff'),url(../fonts/icons.ttf) format('truetype'),url(../fonts/icons.svg#icons) format('svg');font-display: swap;
+}.icon-acc-arrow:before,
+.icon-arrow-right:before,
+.icon-arrow-right_2:before,
+.icon-base-pseudo,
+.icon-check:before,
+.icon-chevron:before,
+.icon-close:before,
+.icon-contacts:before,
+.icon-eye:before,
+.icon-fb:before,
+.icon-file:before,
+.icon-in:before,
+.icon-message:before,
+.icon-pdf:before,
+.icon-pin:before,
+.icon-sort:before,
+.icon-time:before,
+.icon-triangle:before,
+.icon-vk:before,
+.icon-yt:before
+{
+    font-family: icons;font-weight: 400;font-style: normal;font-variant: normal;text-decoration: none;text-transform: none;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+}.icon-acc-arrow:before
+{
+    content: '\E001';
+}.icon-arrow-right:before
+{
+    content: '\E002';
+}.icon-arrow-right_2:before
+{
+    content: '\E003';
+}.icon-check:before
+{
+    content: '\E004';
+}.icon-chevron:before
+{
+    content: '\E005';
+}.icon-close:before
+{
+    content: '\E006';
+}.icon-contacts:before
+{
+    content: '\E007';
+}.icon-eye:before
+{
+    content: '\E008';
+}.icon-fb:before
+{
+    content: '\E009';
+}.icon-file:before
+{
+    content: '\E00A';
+}.icon-in:before
+{
+    content: '\E00B';
+}.icon-message:before
+{
+    content: '\E00C';
+}.icon-pdf:before
+{
+    content: '\E00D';
+}.icon-pin:before
+{
+    content: '\E00E';
+}.icon-sort:before
+{
+    content: '\E00F';
+}.icon-time:before
+{
+    content: '\E010';
+}.icon-triangle:before
+{
+    content: '\E011';
+}.icon-vk:before
+{
+    content: '\E012';
+}.icon-yt:before
+{
+    content: '\E013';
+}@font-face
+{
+    font-family: GillSansProCyrillic-Bold;font-weight: 400;font-style: normal;src: url(../fonts/GillSansProCyrillic-Bold.woff2) format('woff2'),url(../fonts/GillSansProCyrillic-Bold.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: GillSansProCyrillic-Medium;font-weight: 400;font-style: normal;src: url(../fonts/GillSansProCyrillic-Medium.woff2) format('woff2'),url(../fonts/GillSansProCyrillic-Medium.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: Manrope-ExtraBold;font-weight: 400;font-style: normal;src: url(../fonts/Manrope-ExtraBold.woff2) format('woff2'),url(../fonts/Manrope-ExtraBold.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: Manrope-Bold;font-weight: 400;font-style: normal;src: url(../fonts/Manrope-Bold.woff2) format('woff2'),url(../fonts/Manrope-Bold.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: Manrope-SemiBold;font-weight: 400;font-style: normal;src: url(../fonts/Manrope-SemiBold.woff2) format('woff2'),url(../fonts/Manrope-SemiBold.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: Manrope-Medium;font-weight: 400;font-style: normal;src: url(../fonts/Manrope-Medium.woff2) format('woff2'),url(../fonts/Manrope-Medium.woff) format('woff');font-display: swap;
+}@font-face
+{
+    font-family: Manrope-Regular;font-weight: 400;font-style: normal;src: url(../fonts/Manrope-Regular.woff2) format('woff2'),url(../fonts/Manrope-Regular.woff) format('woff');font-display: swap;
+}.b-accordion-main-wrapper
+{
+    margin-bottom: 194px;
+}.b-unavailable
+{background-position-x: center,0,100%;background-position-y: 49%,38%,58%;
+    background-size: 634px,400px,430px;
+}.b-unavailable__text
+{
+    padding-top: 108px;
+}.b-additional
+{
+    margin-bottom: 69px;
+}.b-additional-cards__text
+{
+    font-size: 32px;line-height: 40px;
+}.b-additional-cards__item
+{
+    padding-bottom: 49px;
+}.b-additional-cards__club-card-name
+{
+    letter-spacing: .01em;
+}.b-additional-cards__item--width1 .b-additional-cards__text
+{
+    padding: 0;
+}.b-additional-cards--club-card .b-additional-cards__club-card-description
+{padding: 0 95px;
+
+    letter-spacing: 0;
+}.b-additional-cards--actions .b-additional-cards__text
+{
+    padding: 0 65px;
+}.b-additional-cards--actions
+{
+    margin-bottom: 180px;
+}.b-additional-cards--gift
+{
+    margin-bottom: 225px;
+}.b-additional-cards--swimming .b-additional-cards__item
+{
+    padding: 65px 52px 50px;
+}.b-additional-cards--swimming .b-additional-cards__text
+{line-height: 37px;
+
+    letter-spacing: .04em;
+}.b-additional-cards--swimming .b-additional-cards__club-card-name
+{
+    margin-bottom: 9px;
+}.b-additional-cards--swimming .b-additional-cards__session-count
+{
+    margin-bottom: 18px;padding-right: 17px;
+}.b-additional-cards--swimming .b-additional-cards__club-card-description
+{
+    margin-bottom: 50px;
+}.b-additional-cards--add-services .b-additional-cards__club-card-description
+{min-height: 60px;margin-bottom: 29px;
+    padding: 0 70px;
+}.b-additional-cards--add-services .b-additional-cards__item
+{
+    padding: 46px 52px 50px;
+}.b-additional-cards--add-services .b-additional-cards__text
+{
+    letter-spacing: 0;
+}.b-additional-cards--add-services .b-additional-cards__session-count
+{
+    margin-bottom: 77px;padding: 0 70px;
+}.b-additional-cards--services .b-additional-cards__text
+{
+    width: 310px;
+}.b-additional-cards__item--bg-bot
+{
+    background-position-y: calc((100vw - 1680px) * (230 - 234)/ (1919 - 1680) + 100% + 234px);background-size: 74%;
+}.b-additional-cards__item--bg-top
+{
+    background-position-y: calc((100vw - 1680px) * (150 - 150)/ (1919 - 1680) - 150px);background-size: 74%;
+}.b-all-services
+{margin-bottom: 157px;
+    padding: 71px 0 59px;
+}.b-all-services__text
+{
+    padding: 0 340px;
+}.b-breadcrumbs
+{
+    margin: 72px 0 -20px;
+}.b-breadcrumbs--single-new
+{
+    margin: 48px 0 0 -328px;
+}.b-button--news
+{
+    margin-bottom: 114px;
+}.b-contacts
+{
+    margin-top: 20px;padding-bottom: 82px;
+}.b-contacts__address
+{
+    font-size: 24px;letter-spacing: .06em;
+}.b-contacts__subtitle
+{
+    font-size: 16px;
+}.b-contacts__day
+{
+    font-size: 18px;margin-right: 15px;
+}.b-contacts__telephone,
+.b-contacts__time
+{
+    font-size: 18px;
+}.b-contacts__map
+{
+    width: 808px;
+}.b-contacts__wrapper
+{
+    padding: 0 72px 0 0;
+}.b-contacts--page
+{
+    margin: 0 0 22px;padding: 74px 0 85px;
+}.b-contacts--page .b-contacts__info
+{
+    padding-top: 22px;
+}.b-container
+{
+    width: 1512px;
+}.b-container--small
+{
+    width: 1128px;
+}.b-container--wide
+{
+    width: 100%;
+}.b-container--space
+{
+    width: 1000px;
+}.b-container--very-small
+{
+    width: 872px;
+}.b-corporative-clients
+{
+    padding-top: 71px;
+}.b-corporative-clients__wrapper
+{
+    padding: 0 82px;
+}.b-corporative-clients__subtitle
+{
+    font-size: 24px;line-height: 32px;margin-bottom: 55px;
+}.b-feedback
+{
+    margin-bottom: 238px;padding-top: 73px;
+}.b-feedback__subtitle
+{
+    margin-top: 71px;
+}.b-feedback--corporative-clients .b-feedback__subtitle
+{font-size: 24px;line-height: 32px;margin-bottom: 29px;
+    padding: 0 540px;
+}.b-feedback--corporative-clients
+{padding-top: 118px;padding-bottom: 87px;
+
+    background-position: -66px 323px,calc(100% + 85px) 380px;
+}.b-first-display
+{
+    padding-bottom: 108px;
+}.b-first-display__wrapper
+{
+    margin-top: -31px;
+}.b-first-display__links-wrap
+{
+    margin-top: -47px;
+}.b-first-display--services
+{
+    padding-bottom: 114px;
+}.b-footer
+{
+    padding-bottom: 20px;
+}.b-footer__top
+{
+    margin-bottom: 42px;
+}.b-footer__links
+{
+    width: 79%;
+}.b-footer__link
+{
+    font-size: 14px;
+}.b-footer__production
+{
+    padding: 0;
+}.b-gallery__slider-wrap
+{
+    width: calc((100vw - 1680px) * (960 - 764)/ (1920 - 1680) + 764px);
+}.b-gallery__slider-wrap::after
+{
+    right: -152px;width: 64px;
+}.b-gallery__image-wrap
+{
+    height: calc((100vw - 1680px) * (665 - 530)/ (1920 - 1680) + 530px);
+}.b-gallery__item:nth-child(even) .b-gallery__slider-wrap::after
+{
+    left: -152px;
+}.b-gallery__item:nth-child(even) .b-gallery__text-wrap
+{
+    padding: 47px 102px 5px 208px;
+}.b-gallery__item--pattern
+{
+    background-image: url(/images/inhtml/waves_2.svg);background-repeat: no-repeat;background-position: right calc(100% - 60px);background-size: calc((100vw - 1680px) * (960 - 916)/ (1920 - 1680) + 916px) auto;
+}.b-gallery__item--pattern.b-gallery__item:nth-child(even)
+{
+    background-position-x: left;
+}.b-gallery__text-wrap
+{
+    padding: 47px 305px 5px 64px;
+}.b-gallery__item-text
+{
+    margin-top: 31px;
+}.b-gallery--corporative-clients .b-gallery__slider-wrap
+{
+    width: 764px;margin-right: 157px;
+}.b-gallery--corporative-clients .b-gallery__slider-wrap::after
+{top: 99px;right: -150px;
+
+    width: 64px;
+}.b-gallery--corporative-clients .b-gallery__image-wrap
+{
+    height: 530px;
+}.b-gallery--corporative-clients .b-gallery__text-wrap
+{
+    padding-right: 133px;
+}.b-gallery--corporative-clients .b-gallery__item--pattern
+{background-position: right calc(100% - 177px);
+    background-size: calc((100vw - 1680px) * (964 - 965)/ (1920 - 1680) + 965px) auto;
+}.b-gallery--corporative-clients
+{
+    margin-bottom: 98px;
+}.b-gallery--vacancies
+{
+    margin-bottom: 120px;
+}.b-gallery--vacancies .b-gallery__image-wrap
+{
+    height: calc((100vw - 1680px) * (665 - 530)/ (1920 - 1680) + 530px);
+}.b-gallery--vacancies .b-gallery__slider-wrap
+{
+    width: calc((100vw - 1680px) * (960 - 764)/ (1920 - 1680) + 764px);margin-right: 154px;
+}.b-gallery--vacancies .b-gallery__slider-wrap::after
+{
+    right: -152px;
+}.b-gallery--vacancies .b-gallery__item-text
+{
+    font-size: 20px;line-height: 28px;margin: 39px 0 31px;
+}.b-gallery--vacancies .b-gallery__text-wrap
+{
+    padding: 68px 166px 5px 64px;
+}.b-gallery--sports .b-gallery__text-wrap
+{
+    padding: 49px 226px 5px 64px;
+}.b-gallery--sports .b-gallery__item:nth-child(even) .b-gallery__text-wrap
+{
+    padding: 47px 90px 5px 208px;
+}.b-gallery--sports .b-gallery__item:nth-child(3) .b-gallery__text-wrap::before
+{top: 50%;
+
+    width: 55vw;height: 340px;
+}.b-gallery--sports .b-gallery__item--pattern
+{background-position: right calc(100% - 58px);
+    background-size: calc((100vw - 1680px) * (964 - 918)/ (1920 - 1680) + 918px) auto;
+}.b-gallery--sports
+{
+    margin-bottom: 48px;
+}.b-header__telephone
+{
+    font-size: 20px;margin-right: 59px;
+}.b-header--main-page .b-header__telephone
+{
+    margin-right: 104px;
+}.b-header.fixed::after
+{height: 300px;
+
+    background-image: linear-gradient(180deg,#fff 20%,rgba(255,255,255,0) 100%);
+}.b-link--locations-slider
+{
+    margin-bottom: 30px;
+}.b-link--pink-arrow
+{
+    font-size: 20px;line-height: 26px;padding-right: 65px;
+}.b-link--pink-arrow::before
+{
+    width: calc(100% - 65px);
+}.b-link--pink-arrow .b-link__arrow
+{
+    font-size: 16px;line-height: 1;
+}.b-link--pink-arrow.b-link--main
+{
+    margin-right: 214px;margin-bottom: 116px;
+}.b-link--faq.b-link--main
+{
+    margin-bottom: -6px;
+}.b-link-block--cards
+{
+    margin: 120px 0 143px;padding: 0 256px;
+}.b-list--corporative-clients .b-list__item
+{
+    font-size: 20px;line-height: 28px;
+}.b-locations-slider__item-title,
+.b-title--h2
+{
+    font-size: 56px;line-height: 64px;
+}.b-list--trainer .b-list__item
+{
+    padding-right: 0;
+}.b-locations-slider
+{
+    background-position: right 21px;background-size: calc(50% + 132px) auto;
+}.b-locations-slider::after
+{left: calc(50% + 13px);
+
+    width: 64px;
+}.b-locations-slider__item-text
+{
+    font-size: 18px;line-height: 24px;
+}.b-locations-slider__gallery
+{
+    width: calc(50% - 76px);margin: 0 152px 0 0;
+}.b-locations-slider__gallery-dots
+{
+    left: calc(50% - 130px);
+}.b-locations-slider__wrapper
+{
+    width: calc(50% - 76px);padding: 67px calc((100vw - 1512px)/ 2) 50px 66px;
+}.b-locations-slider__dots
+{
+    margin: 0 -14px auto;
+}.b-locations-slider__dots-item
+{
+    margin: 0 14px 17px;
+}.b-locations-slider__gallery-slide
+{
+    height: calc((100vw - 1680px) * (666 - 530)/ (1920 - 1680) + 530px);max-height: 666px;
+}.b-locations-slider__gallery-slide.slick-active .b-locations-slider__border-wrap
+{
+    width: calc(2 * (50vw - 76px) + 350px);height: calc(2 * (50vw - 76px) + 350px);
+}.b-locations-slider__border-wrap
+{
+    margin-top: calc(50px + 50px - ((100vw - 1680px) * (666 - 530)/ (1920 - 1680) + 530px)/ 2);
+}.b-locations-slider__photo-wrap
+{
+    width: calc(50vw - 76px);height: calc((100vw - 1680px) * (666 - 530)/ (1920 - 1680) + 530px);margin: calc(((100vw - 1680px) * (666 - 530)/ (1920 - 1680) + 530px)/ 2 - 50px - 50px) 0 0 calc((76px - 50vw)/ 2);
+}.b-logo--main-page
+{
+    width: 682px;height: 97px;margin-top: 2px;
+}.b-menu--header-bottom
+{
+    margin: 0 -8px;
+}.b-menu--header-bottom .b-menu__item
+{
+    margin: 0 8px;
+}.b-menu--header-bottom .b-menu__link
+{
+    font-size: 15px;
+}.b-news
+{
+    position: relative;
+}.b-news-cards .slick-slider
+{
+    margin-bottom: 17px;
+}.b-offers
+{
+    margin-bottom: 110px;
+}.b-online
+{
+    margin-bottom: 51px;
+}.b-online-camera
+{
+    height: 724px;
+}.b-page-wrapper__pattern
+{background-position: -72px 157px,calc(100% + 190px) 79px;
+    background-size: 498px auto;
+}.b-page-wrapper__circle
+{
+    height: 720px;
+}.b-photo-cards--news .b-photo-cards__card
+{
+    width: calc(100% / 4 - 24px);
+}.b-photo-cards--services
+{
+    width: 1536px;margin: 0 -12px;
+}.b-photo-cards--services .b-photo-cards__card
+{
+    width: calc(100% / 4 - 24px);margin-bottom: 25px;
+}.b-photo-cards--services .b-photo-cards__image
+{
+    min-height: 300px;
+}.b-photo-cards--services .b-photo-cards__text
+{
+    font-size: 24px;line-height: 30px;
+}.b-photo-cards--services .b-photo-cards__subtext,
+.b-services-cards__description-item
+{
+    font-size: 16px;line-height: 24px;
+}.b-photo-cards--slider .b-photo-cards__arrows
+{
+    position: absolute;top: 112px;right: 48px;width: auto;margin: 0 -12px;
+}.no-touchevents .b-services-cards__card:hover .b-services-cards__title,
+.touchevents .b-services-cards__card:active .b-services-cards__title
+{
+    -ms-transform: translateY(-95px)                ;transform: translateY(-95px);
+}.b-services-cards--main .b-services-cards__card
+{
+    width: 360px;height: 360px;margin-right: -84px;padding: 25px 43px 37px;
+}.b-services-cards--main .b-services-cards__card--big
+{
+    width: 424px;height: 424px;padding: 40px 80px 104px;
+}.b-services-cards--main .b-services-cards__card--big .b-services-cards__title
+{
+    margin-bottom: 26px;
+}.b-services-cards--main .b-services-cards__card:nth-child(2)
+{
+    margin: 0 -124px 130px 0;
+}.b-services-cards--main .b-services-cards__card:nth-child(3)
+{
+    margin: 0 -64px -46px 0;
+}.b-services-cards--main .b-services-cards__card:nth-child(4)
+{
+    margin: 0 -81px 159px 0;
+}.b-services-cards--main .b-services-cards__card:nth-child(5)
+{
+    margin-bottom: -17px;
+}.b-services-cards--main .b-services-cards__title
+{
+    font-size: 24px;margin-bottom: 20px;
+}.b-services-cards--main .b-services-cards__description
+{
+    margin-bottom: 44px;
+}.b-services-cards--main .b-services-cards__pattern
+{
+    width: 146px;
+}.b-services-cards--services .b-services-cards__title
+{
+    font-size: 24px;margin-bottom: 22px;
+}.b-services-cards--services .b-services-cards__card
+{
+    padding: 25px 30px 26px;
+}.b-services-cards--services .b-services-cards__card--big
+{
+    width: 488px;height: 488px;padding: 40px 105px 55px;
+}.b-services-cards--services .b-services-cards__card--big .b-services-cards__description
+{
+    margin-bottom: 87px;
+}.b-services-cards--services .b-services-cards__card--big .b-services-cards__title
+{
+    margin-bottom: 16px;
+}.b-services-cards--services .b-services-cards__card:nth-child(1)
+{
+    z-index: 1;margin: 37px 10px 0 -10px;
+}.b-services-cards--services .b-services-cards__card:nth-child(2)
+{
+    z-index: 2;
+}.b-services-cards--services .b-services-cards__card:nth-child(3)
+{
+    z-index: 3;
+}.b-services-cards--services .b-services-cards__card:nth-child(4)
+{
+    z-index: 1;
+}.b-services-cards--services .b-services-cards__description
+{
+    margin-bottom: 34px;
+}.b-services-cards--additional .b-services-cards__card
+{
+    padding: 41px 42px;
+}.b-services-cards--additional .b-services-cards__title
+{
+    font-size: 24px;line-height: 30px;padding: 0;
+}.b-services-cards--additional .b-services-cards__description
+{
+    margin-bottom: 22px;
+}.b-services-cards--additional .b-services-cards__description-item
+{
+    font-size: 17px;line-height: 24px;
+}.b-social-link--footer
+{
+    margin-top: 7px;padding: 0;
+}.b-space
+{
+    margin-bottom: 38px;
+}.b-space__info
+{
+    font-size: 24px;line-height: 32px;
+}.b-space__wrapper
+{
+    margin-bottom: 72px;padding: 31px 205px 0 323px;
+}.b-space__links
+{
+    padding: 120px 0 118px;
+}.b-sports__wrapper
+{
+    margin: 0 auto 96px;
+}.b-steps--corporative-clients .b-steps__card--dark-blue
+{
+    margin-top: 68px;margin-left: 27px;
+}.b-steps--corporative-clients .b-steps__card--red
+{
+    margin-left: -72px;
+}.b-steps--corporative-clients .b-steps__card--blue
+{
+    margin: 0 0 -20px -108px;
+}.b-tab--online .b-tab__head,
+.b-tab__head
+{
+    margin-bottom: 44px;
+}.b-tab--team .b-tab__head
+{
+    max-width: calc(100% + 100vw - 1512px);margin: 0 calc((1512px - 100vw)/ 2) 56px;
+}.b-tab--trainer .b-tab__head
+{
+    margin-bottom: 69px;
+}.b-things::before
+{left: -266px;
+
+    display: block;width: 547px;height: 350px;-ms-transform: translate(0,-50%);transform: translate(0,-50%);
+}.b-things::after
+{right: -281px;
+
+    display: block;width: 550px;height: 312px;-ms-transform: translate(0,-42%);transform: translate(0,-42%);
+}.b-title--h2.b-title--main-page
+{
+    margin-bottom: 52px;
+}.b-title--h1-rules
+{
+    margin: 72px auto;
+}.b-title--news
+{
+    margin-bottom: 90px;
+}.b-title--contacts
+{
+    margin-left: 896px;
+}.b-title--team
+{
+    padding-top: 73px;
+}.b-title--schedule
+{
+    margin-bottom: 40px;
+}.b-title--space
+{
+    width: 420px;
+}.b-title--news-page
+{
+    font-size: 48px;line-height: 54px;
+}.b-title--sport
+{
+    margin: -20px 0 70px;
+}.b-title--trainer
+{
+    margin-bottom: 58px;
+}.b-title--partner-page
+{
+    font-size: 40px;line-height: 48px;
+}.b-title--corporative-clients
+{
+    font-size: 48px;line-height: 56px;margin-bottom: 32px;
+}.b-trainer-cards__name-text,
+.b-trainer-cards__surname-text
+{
+    font-size: 24px;line-height: 30px;
+}.b-title--corporat-slider-title
+{
+    margin-bottom: 45px;
+}.b-title--main-services
+{
+    margin-top: 73px;
+}.b-title--offers
+{
+    margin-bottom: 60px;
+}.b-title--vacancy
+{
+    margin: 73px 0 71px;
+}.b-title--club-card
+{
+    margin: 69px auto 72px;
+}.b-title--sports
+{
+    width: 100%!important;
+}.b-trainer
+{
+    margin-bottom: 134px;padding-left: 66px;
+}.b-trainer__position
+{
+    padding-right: 0;
+}.b-trainer__picture
+{
+    margin-right: 92px;
+}.b-trainer__wrapper
+{
+    width: 366px;
+}.b-trainer-cards__card
+{min-height: 660px;
+    padding-top: 341px;padding-bottom: 56px;
+}.no-touchevents .b-trainer-cards__card:hover .b-trainer-cards__picture,
+.touchevents .b-trainer-cards__card:active .b-trainer-cards__picture
+{
+    width: 975px;height: 975px;
+}.b-trainer-cards__img-wrap
+{
+    height: 658px;margin-top: -233px;-ms-transform: scale(.5);transform: scale(.5);-ms-transform-origin: 50% 300px;transform-origin: 50% 300px;
+}.b-trainer-cards--team
+{
+    margin: 0 calc((1512px - 100vw)/ 2) 152px;
+}.b-trainer-cards__position-text
+{font-size: 18px;line-height: 24px;
+
+    width: 212px;
+}.b-trainer-cards--slider
+{
+    margin-top: 52px;
+}.b-trainer-cards--slider .b-trainer-cards__img-wrap
+{
+    height: 657px;margin-top: -231px;
+}.b-trainer-cards--slider .b-trainer-cards__arrows
+{
+    top: 314px;right: 132px;
+}.b-trainer-cards--slider .b-trainer-cards__card
+{
+    min-height: 658px;padding-top: 341px;padding-bottom: 56px;
+}.b-vacancies
+{
+    margin-bottom: 130px;
+}.b-vacancies__text
+{
+    font-size: 24px;line-height: 32px;width: 744px;margin: 0 auto 72px;
+}.b-vacancies__title
+{
+    margin-bottom: 71px;
+}
