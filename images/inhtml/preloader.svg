@@ -1,8 +1,0 @@
-<svg width="110" height="83" viewBox="0 0 110 83" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path class="b-preloader__item-back" d="M52 78C52 78 28 78 20 78C12 78 5 71.5 5 62.5C5 53.5 15 50 21.5 50C28 50 53.677 59.4734 73 66.5C95 74.5 105 70.5 106 70.5" stroke="#E3EB7D" stroke-width="9"/>
-    <path class="b-preloader__item b-preloader__item--1" d="M52 78C52 78 28 78 20 78C12 78 5 71.5 5 62.5C5 53.5 15 50 21.5 50C28 50 53.677 59.4734 73 66.5C95 74.5 105 70.5 106 70.5" stroke="#1B2661" stroke-width="9"/>
-    <path class="b-preloader__item-back" d="M1 35.9994C2.5 35.9986 8 33.0926 21 32.5002C34 31.9077 73.5 50.5 85.5 52.5007C97.5 54.5013 104.5 52.4986 106 52.4994" stroke="#E3EB7D" stroke-width="9"/>
-    <path class="b-preloader__item b-preloader__item--2" d="M1 35.9994C2.5 35.9986 8 33.0926 21 32.5002C34 31.9077 73.5 50.5 85.5 52.5007C97.5 54.5013 104.5 52.4986 106 52.4994" stroke="#1B2661" stroke-width="9"/>
-    <path class="b-preloader__item-back" d="M55.5 5C55.5 5 80.5 5 88.5 5C96.5 5 105 10.5 105 20.5C105 30.5 97.5 34.5 91 34.5C84.5 34.5 55.5 21.27 35.5 16.5C19.5 12.684 2 16.5 1 16.5" stroke="#E3EB7D" stroke-width="9"/>
-    <path class="b-preloader__item b-preloader__item--3" d="M55.5 5C55.5 5 80.5 5 88.5 5C96.5 5 105 10.5 105 20.5C105 30.5 97.5 34.5 91 34.5C84.5 34.5 55.5 21.27 35.5 16.5C19.5 12.684 2 16.5 1 16.5" stroke="#1B2661" stroke-width="9"/>
-</svg>
